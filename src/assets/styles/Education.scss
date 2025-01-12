@@ -1,0 +1,80 @@
+.education-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  svg {
+    color: white; /* Match Expertise icons */
+  }
+}
+
+.education-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white; /* Match Expertise section title */
+  margin-bottom: 2rem;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  grid-gap: 50px; /* Space between cards */
+}
+
+.education-grid .education-item {
+  align-items: center;
+  text-align: left;
+
+  svg {
+    margin-bottom: 1rem;
+    color: white; /* Accent color for icons */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Same as Expertise titles */
+    font-weight: 600;
+    color: white; /* Match text color */
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #ccc; /* Match description text color */
+    line-height: 1.5;
+  }
+
+  .education-details {
+    margin-top: 1rem;
+
+    .education-years {
+      display: block;
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+@media screen {
+  @media (max-width: 768px) {
+    .education-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .education-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+  }
+
+  @media (max-width: 567px) {
+    .education-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+
+    .education-grid .education-item {
+      padding-bottom: 5%;
+    }
+  }
+}

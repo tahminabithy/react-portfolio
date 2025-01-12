@@ -1,0 +1,16 @@
+[
+  {
+    "degree": "Master of Science (MSc) in Computer Science",
+    "institution": "University of Alberta",
+    "description": "Focused on advanced machine learning techniques for fault localization and anomaly detection.",
+    "startdate": "August 2022",
+    "enddate": "Sept 2023"
+  },
+  {
+    "degree": "Bachelors of Science (MSc) in Computer Science",
+    "institution": "BRAC University",
+    "description": "Thesis on optimization algorithms for distributed systems.",
+    "startdate": "January 2016",
+    "enddate": "December 2020"
+  }
+]

@@ -1,0 +1,100 @@
+.research-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  svg {
+    color: white; /* Match Expertise icons */
+  }
+}
+
+.research-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white; /* Match Expertise section title */
+  margin-bottom: 2rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  grid-gap: 50px; /* Space between cards */
+}
+
+.research-grid .research-item {
+  align-items: center;
+  text-align: left;
+
+  svg {
+    margin-bottom: 1rem;
+    color: white; /* Accent color for icons */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Same as Expertise titles */
+    font-weight: 600;
+    color: white; /* Match text color */
+    margin-bottom: 0.5rem;
+  }
+
+  .research-type {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #bbb;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #ccc; /* Match description text color */
+    line-height: 1.5;
+  }
+
+  .research-details {
+    margin-top: 1rem;
+
+    .research-published,
+    .research-date {
+      display: block;
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .research-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #5000ca;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen {
+  @media (max-width: 768px) {
+    .research-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .research-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+  }
+
+  @media (max-width: 567px) {
+    .research-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+
+    .research-grid .research-item {
+      padding-bottom: 5%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Conference",
+    "title": "Enhancing Fault Localization with Large Language Models",
+    "description": "Proposed a novel framework using LLMs to improve fault localization results with an agent-based code analysis technique.",
+    "date": "October 2024",
+    "published": "ICSE 2024",
+    "link": "https://example.com/fault-localization"
+  },
+  {
+    "type": "Journal",
+    "title": "Generative Flow Networks for Robotics",
+    "description": "Developed and optimized GFlowNets to improve autonomous robotic systems with real-world adaptability.",
+    "date": "July 2023",
+    "published": "Robotics and Automation Letters",
+    "link": "https://example.com/gflownet-robotics"
+  },
+  {
+    "type": "Conference",
+    "title": "Change Point Detection for Sustainable Resource Management",
+    "description": "Implemented change point detection to identify anomalies in monthly usage data for optimized resource allocation.",
+    "date": "April 2022",
+    "published": "FSE 2022",
+    "link": "https://example.com/change-point-detection"
+  }
+]

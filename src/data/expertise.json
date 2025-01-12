@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Full Stack Web Development",
+    "description": "I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.",
+    "techstack": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "Flask",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "Postman"
+    ],
+    "icon": "faReact"
+  },
+  {
+    "title": "DevOps & Automation",
+    "description": "Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.",
+    "techstack": [
+      "Git",
+      "GitHub Actions",
+      "Docker",
+      "AWS",
+      "Azure",
+      "Linux",
+      "Snowflake",
+      "Pandas",
+      "Selenium"
+    ],
+    "icon": "faDocker"
+  },
+  {
+    "title": "GenAI & LLM",
+    "description": "Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.",
+    "techstack": [
+      "OpenAI",
+      "Groq",
+      "LangChain",
+      "Qdrant",
+      "Hugging Face",
+      "LlamaIndex",
+      "Streamlit"
+    ],
+    "icon": "faPython"
+  }
+]

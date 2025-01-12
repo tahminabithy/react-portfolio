@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Casual Research Programmer - II",
+    "organisation": "University of Alberta",
+    "description": "Engaged as a Casual Research Programmer at the .....",
+    "startdate": "January 2024",
+    "enddate": "Present"
+  },
+  {
+    "title": "Graduate Research Assistant Fellow (GRAF)",
+    "organisation": "University of Alberta",
+    "description": "Worked as a GRAF under the supervision of Dr. Osmar Zaiane.",
+    "startdate": "May 2022",
+    "enddate": "December 2023"
+  },
+  {
+    "title": "Graduate Teaching Assistant (GTA)",
+    "organisation": "University of Alberta",
+    "description": "Facilitated lab sessions for CMPUT 174 and seminars for CMPUT 204.....",
+    "startdate": "August 2021",
+    "enddate": "April 2022"
+  },
+  {
+    "title": "Lecturer",
+    "organisation": "BRAC University",
+    "description": "Conducted courses in Digital Logic Design, Data ....",
+    "startdate": "January 2020",
+    "enddate": "December 2020"
+  },
+  {
+    "title": "Teaching Assistant (TA)",
+    "organisation": "BRAC University",
+    "description": "Mentored 1st and 2nd-year students in 'Digital ....",
+    "startdate": "August 2019",
+    "enddate": "December 2019"
+  }
+]
