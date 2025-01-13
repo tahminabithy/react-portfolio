@@ -1,0 +1,37 @@
+.skills-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+
+      strong {
+        color: white; /* Highlight category name */
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 5% 5%;
+
+    .skills-list li {
+      font-size: 1rem;
+    }
+  }
+}

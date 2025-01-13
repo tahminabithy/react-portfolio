@@ -21,6 +21,7 @@ const navItems = [
   ["Expertise", "expertise"],
   ["History", "history"],
   ["Research", "research"],
+  ["Projects", "projects"],
   ["Contact", "contact"],
 ];
 

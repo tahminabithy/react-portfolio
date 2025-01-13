@@ -1,6 +1,6 @@
 [
   {
-    "title": "Full Stack Web Development",
+    "title": "Full Stack Web Developmentds",
     "description": "I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.",
     "techstack": [
       "React",
@@ -15,7 +15,7 @@
       "PostgreSQL",
       "Postman"
     ],
-    "icon": "faReact"
+    "icon": "faDocker"
   },
   {
     "title": "DevOps & Automation",

@@ -1,0 +1,36 @@
+[
+  {
+    "category": "Languages",
+    "items": ["Python", "Java", "C++", "MySQL", "C", "Linux Shell Scripting"]
+  },
+  {
+    "category": "ML Frameworks and Libraries",
+    "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"]
+  },
+  {
+    "category": "Data Analytics Tools",
+    "items": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau"]
+  },
+  {
+    "category": "Cloud Platforms",
+    "items": ["AWS", "Google Cloud", "Azure"]
+  },
+  {
+    "category": "Specializations",
+    "items": [
+      "Machine Learning",
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Generative Flow Networks",
+      "LLM",
+      "Data Science"
+    ]
+  },
+  {
+    "category": "Research and Development",
+    "items": [
+      "Reinforcement Learning Algorithms",
+      "Natural Language Processing"
+    ]
+  }
+]

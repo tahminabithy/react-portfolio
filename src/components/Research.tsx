@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import "../assets/styles/Research.scss";
-import researchWorks from "../data/researchWorks.json";
+import researchWorks from "../data/researchProjects.json";
 
 function ResearchWorks() {
   return (

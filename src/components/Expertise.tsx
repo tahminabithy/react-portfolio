@@ -19,7 +19,7 @@ function Expertise() {
         <div className="skills-grid">
           {data.map((expertise, index) => (
             <div key={index} className="skill">
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 icon={
                   expertise.icon === "faReact"
                     ? faReact
@@ -28,7 +28,7 @@ function Expertise() {
                     : faPython
                 }
                 size="3x"
-              />
+              /> */}
               <h3>{expertise.title}</h3>
               <p>{expertise.description}</p>
               <div className="flex-chips">

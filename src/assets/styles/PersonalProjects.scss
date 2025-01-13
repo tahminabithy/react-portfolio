@@ -1,0 +1,114 @@
+.projects-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  svg {
+    color: white; /* Match icon color */
+  }
+}
+
+.projects-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white; /* Match section title color */
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns by default */
+  grid-gap: 50px; /* Space between cards */
+}
+
+.projects-grid .project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  word-wrap: break-word; /* Ensure all text wraps */
+  white-space: normal;
+  overflow-wrap: break-word;
+
+  svg {
+    margin-bottom: 1rem;
+    color: white; /* Accent color for icons */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Same as Expertise titles */
+    font-weight: 600;
+    color: white; /* Match text color */
+    margin-bottom: 0.5rem;
+  }
+
+  .project-type {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #bbb;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-details {
+    margin-top: 1rem;
+
+    .project-technologies,
+    .project-date {
+      display: block;
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .project-description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #5000ca;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Responsive Adjustments */
+@media screen {
+  @media (max-width: 768px) {
+    .projects-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+  }
+
+  @media (max-width: 567px) {
+    .project-description {
+      font-size: 0.95rem; /* Slightly smaller font size for mobile */
+      padding-right: 1rem; /* Add padding for better spacing */
+    }
+    .project-description {
+      font-size: 0.9rem; /* Even smaller font size for narrow screens */
+      line-height: 1.4;
+    }
+
+    .projects-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+
+    .projects-grid .project-item {
+      padding-bottom: 5%;
+    }
+  }
+}

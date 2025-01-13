@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fault Localization with Large Language Models",
+    "type": "Conference Paper",
+    "description": "Explores using LLMs for fault localization in software engineering.",
+    "published": "ESEC/FSE 2024",
+    "date": "July 2024",
+    "link": "https://example.com/publication-1"
+  },
+  {
+    "title": "Adaptive Machine Learning for Robotics",
+    "type": "Journal Article",
+    "description": "Discusses novel machine learning techniques for adaptive robotics.",
+    "published": "Journal of Robotics Research",
+    "date": "January 2023",
+    "link": "https://example.com/publication-2"
+  },
+  {
+    "title": "Efficient GFlowNets for Autonomous Systems",
+    "type": "Conference Paper",
+    "description": "Proposes optimizations for GFlowNets in autonomous systems.",
+    "published": "ICML 2023",
+    "date": "June 2023",
+    "link": "https://example.com/publication-3"
+  }
+]

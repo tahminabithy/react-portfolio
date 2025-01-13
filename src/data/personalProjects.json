@@ -1,0 +1,26 @@
+[
+  {
+    "title": "E-commerce Platform",
+    "type": "Web Application",
+    "description": "Built a scalable e-commerce platform with filtering, sorting, and payment gateway integration.",
+    "technologies": ["Node.js", "Express", "MongoDB", "React"],
+    "date": "July 2022",
+    "link": "https://example.com/project1"
+  },
+  {
+    "title": "Portfolio Website",
+    "type": "Portfolio",
+    "description": "Designed and developed a personal portfolio showcasing projects and skills.",
+    "technologies": ["Next.js", "CSS", "Vercel"],
+    "date": "March 2023",
+    "link": "https://example.com/project2"
+  },
+  {
+    "title": "Movie Recommendation System",
+    "type": "Machine Learning",
+    "description": "Developed a web app for personalized movie recommendations using OpenAI APIs and Qdrant.",
+    "technologies": ["React", "Flask", "Qdrant", "OpenAI"],
+    "date": "January 2023",
+    "link": "https://example.com/project3"
+  }
+]

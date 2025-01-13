@@ -12,6 +12,8 @@ import FadeIn from "./components/FadeIn";
 import "./index.scss";
 import Education from "./components/Education";
 import Research from "./components/Research";
+import SkillsAndInterests from "./components/SkillsAndInterests";
+import PersonalProjects from "./components/PersonalProjects";
 
 function App() {
   const [mode, setMode] = useState<string>("dark");
@@ -42,7 +44,9 @@ function App() {
         <Education />
         {/* <Project /> */}
         <Research />
-        <Contact />
+        <PersonalProjects />
+        {/* <SkillsAndInterests /> */}
+        {/* <Contact /> */}
       </FadeIn>
       <Footer />
     </div>
