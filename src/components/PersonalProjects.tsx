@@ -7,7 +7,7 @@ import { Chip } from "@mui/material";
 
 function PersonalProjects() {
   return (
-    <div id="research-works">
+    <div id="project">
       <div className="research-container">
         <h1>Personal Projects</h1>
         <div className="research-grid">

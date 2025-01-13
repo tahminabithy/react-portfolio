@@ -14,6 +14,7 @@ import Education from "./components/Education";
 import Research from "./components/Research";
 import SkillsAndInterests from "./components/SkillsAndInterests";
 import PersonalProjects from "./components/PersonalProjects";
+import Certificate from "./components/Certificate";
 
 function App() {
   const [mode, setMode] = useState<string>("dark");
@@ -45,8 +46,9 @@ function App() {
         {/* <Project /> */}
         <Research />
         <PersonalProjects />
+        <Certificate />
         {/* <SkillsAndInterests /> */}
-        {/* <Contact /> */}
+        <Contact />
       </FadeIn>
       <Footer />
     </div>

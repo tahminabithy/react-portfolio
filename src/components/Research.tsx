@@ -6,7 +6,7 @@ import researchWorks from "../data/researchProjects.json";
 
 function ResearchWorks() {
   return (
-    <div id="research-works">
+    <div id="research">
       <div className="research-container">
         <h1>Research Works</h1>
         <div className="research-grid">

@@ -6,7 +6,7 @@ import "../assets/styles/Footer.scss";
 function Footer() {
   return (
     <footer>
-      <div>
+      {/* <div>
         <a
           href="https://github.com/zahinsufiyan"
           target="_blank"
@@ -21,9 +21,9 @@ function Footer() {
         >
           <LinkedInIcon />
         </a>
-      </div>
+      </div> */}
       <p>
-        A portfolio designed & built by{" "}
+        A portfolio built by{" "}
         <a
           href="https://github.com/zahinsufiyan"
           target="_blank"
@@ -31,7 +31,6 @@ function Footer() {
         >
           Zahin Sufiyan
         </a>{" "}
-        with 💜
       </p>
     </footer>
   );

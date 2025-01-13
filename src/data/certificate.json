@@ -1,26 +1,23 @@
 [
   {
-    "type": "Conference",
-    "title": "Enhancing Fault Localization with Large Language Models",
-    "description": "Proposed a novel framework using LLMs to improve fault localization results with an agent-based code analysis technique.",
-    "date": "October 2024",
-    "published": "ICSE 2024",
-    "link": "https://example.com/fault-localization"
+    "title": "Certified Kubernetes Administrator (CKA)",
+    "organization": "The Linux Foundation",
+    "date": "September 2023",
+    "description": "Validated expertise in managing, deploying, and troubleshooting Kubernetes clusters.",
+    "link": "https://example.com/certificate/cka"
   },
   {
-    "type": "Journal",
-    "title": "Generative Flow Networks for Robotics",
-    "description": "Developed and optimized GFlowNets to improve autonomous robotic systems with real-world adaptability.",
-    "date": "July 2023",
-    "published": "Robotics and Automation Letters",
-    "link": "https://example.com/gflownet-robotics"
+    "title": "AWS Certified Solutions Architect – Associate",
+    "organization": "Amazon Web Services (AWS)",
+    "date": "June 2022",
+    "description": "Demonstrated knowledge of designing and deploying scalable and fault-tolerant systems on AWS.",
+    "link": "https://example.com/certificate/aws-solutions-architect"
   },
   {
-    "type": "Conference",
-    "title": "Change Point Detection for Sustainable Resource Management",
-    "description": "Implemented change point detection to identify anomalies in monthly usage data for optimized resource allocation.",
-    "date": "April 2022",
-    "published": "FSE 2022",
-    "link": "https://example.com/change-point-detection"
+    "title": "Google Data Analytics Professional Certificate",
+    "organization": "Google",
+    "date": "January 2021",
+    "description": "Acquired hands-on skills in data cleaning, visualization, and analysis using tools like SQL and Tableau.",
+    "link": "https://example.com/certificate/google-data-analytics"
   }
 ]
